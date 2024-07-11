@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(189, 212, 231);
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 55%;
+    height: 80%;
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 2rem;
+    box-shadow: 1px 2px 4px black;
+}
+.amount{
+    font-size: 30px;
+    margin: auto;
+    padding: 5px;
+    margin-top: 5px;
+
+}
+input{
+    font-size: 20px;
+    border-radius: 1rem;
+    padding: 10px;
+    border: none;
+    background-color: rgb(220, 233, 243);
+}
+
+.dropdown{
+
+    padding: 60px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8%;
+}
+
+.from{
+    font-size: 30px;
+    border-radius: 1rem;
+}
+.to{
+    font-size: 30px;
+    border-radius: 1rem;
+}
+
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.msg{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.btn{
+    border: none;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: #3dadad;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 20px;
+    
+}
+
+.btn:hover{
+    background-color: #2e8181;
+}
+h1{
+    font-weight: bolder;
+    padding: 15px 0;
+}
+.ppt{
+   margin-bottom: 10px;
+}
+button{
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: rgb(240, 97, 240);
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+select{
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 1rem;
+}
+i{
+    margin-top: 45px;
+}
