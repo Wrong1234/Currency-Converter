@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -104,4 +104,144 @@ select{
 }
 i{
     margin-top: 45px;
+} */
+
+/* coin.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(135deg, #33c2a8 0%, #2d3452 100%);
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exchange{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 2.5rem 2rem;
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.15);
+    max-width: 370px;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #2d3a4b;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.amount {
+    margin-bottom: 1.2rem;
+}
+
+.ppt {
+    margin-bottom: 0.5rem;
+    color: #555;
+    font-size: 1rem;
+}
+
+.amount input[type="text"] {
+    width: 90%;
+    padding: 0.7rem 1rem;
+    border: 1px solid #5678ad;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.amount input[type="text"]:focus {
+    border-color: #74ebd5;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.2rem;
+}
+
+.from, .to {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+
+.select-container {
+    display: flex;
+    align-items: center;
+    background: #f5f7fa;
+    border-radius: 8px;
+    padding: 0.3rem 0.7rem;
+    margin-top: 0.4rem;
+    border: 1px solid #e0e6ed;
+}
+
+.select-container img {
+    width: 32px;
+    height: 32px;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+    border: 1px solid #e0e6ed;
+}
+
+.select-container select {
+    border: none;
+    background: transparent;
+    font-size: 1rem;
+    outline: none;
+    padding: 0.2rem 0.5rem;
+}
+
+.fa-angles-right {
+    font-size: 1.5rem;
+    color: #74ebd5;
+    margin: 0 0.5rem;
+}
+
+.msg {
+    text-align: center;
+    color: #2d3a4b;
+    background: #f5f7fa;
+    border-radius: 8px;
+    padding: 0.7rem 0.5rem;
+    margin-bottom: 1.2rem;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+.btn {
+    width: 100%;
+    padding: 0.9rem 0;
+    background: linear-gradient(90deg, #1fc7ab 0%, #2a42bb 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #637cec 0%, #7c8a87 100%);
+    transform: translateY(-2px) scale(1.02);
 }
